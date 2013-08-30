@@ -9,7 +9,7 @@ def mean(vals):
         print "Something unknown happened with the list."
     return float(total)/length
 
-def median(vals):
+def median(numlist):
     numlist.sort()
     length = len(numlist)
     index = length/2
