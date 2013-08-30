@@ -9,6 +9,7 @@ def mean(vals):
         print "Something unknown happened with the list."
     return float(total)/length
 
+<<<<<<< HEAD
 def median(numlist):
     numlist.sort()
     length = len(numlist)
@@ -17,6 +18,11 @@ def median(numlist):
        return mean([numlist[index], numlist[index - 1]])
     else:
        return numlist[index]
+=======
+def median(vals):
+    """Computes the median from a list of values."""
+    pass
+>>>>>>> upstream/master
 
 def mode(vals):
     """Computes the mode from a list of values."""
